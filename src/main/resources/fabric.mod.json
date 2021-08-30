@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "silkthatamethyst",
+  "version": "${version}",
+  "name": "Silk That Amethyst",
+  "description": "Use silk touch on budding amethyst",
+  "authors": [
+    "Exo"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/silkthatamethyst/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.frogastudios.silkthatamethyst.client.SilkThatAmethystClient"
+    ],
+    "main": [
+      "com.frogastudios.silkthatamethyst.SilkThatAmethyst"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
